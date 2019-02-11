@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>ru.sadv1r</groupId>
+        <artifactId>sadv1r-oss-pom</artifactId>
+        <version>1-SNAPSHOT</version>
+    </parent>
+
+    <groupId>ru.sadv1r.junit</groupId>
+    <artifactId>junit-ordered-runner</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>JUnit Ordered Runner</name>
+    <description>Custom runner for Junit that allows the user to choose the order of execution of the methods within a test class.</description>
+
+    <properties>
+        <dep.assertj.version>3.9.1</dep.assertj.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${dep.assertj.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
