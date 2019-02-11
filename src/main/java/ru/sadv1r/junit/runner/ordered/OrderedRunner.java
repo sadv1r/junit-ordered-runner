@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The custom runner for Junit that allows the user to choose the order
- * of execution of the methods within a test class.
+ * The custom runner for Junit that allows the user to specify the order
+ * of methods execution within a test class.
  * <p>
  * It's recommended that test methods be written so they are independent
  * of the order that they are executed.
@@ -21,7 +21,6 @@ public class OrderedRunner extends BlockJUnit4ClassRunner {
      *
      * @throws InitializationError if the test class is malformed.
      */
-    @SuppressWarnings("WeakerAccess")
     public OrderedRunner(Class<?> clazz) throws InitializationError {
         super(clazz);
     }

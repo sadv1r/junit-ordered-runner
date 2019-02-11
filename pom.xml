@@ -16,7 +16,9 @@
     <packaging>jar</packaging>
 
     <name>JUnit Ordered Runner</name>
-    <description>Custom runner for Junit that allows the user to choose the order of execution of the methods within a test class.</description>
+    <description>Custom runner for JUnit that allows the user to choose the order of methods execution
+        within a test class.
+    </description>
 
     <properties>
         <dep.assertj.version>3.9.1</dep.assertj.version>
