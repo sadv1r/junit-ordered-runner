@@ -3,13 +3,13 @@ JUnit Ordered Runner
 This little project is designed to give the ability to specify the order of methods execution within a test class.
 
 [![Build Status](https://travis-ci.org/sadv1r/junit-ordered-runner.svg?branch=master)](https://travis-ci.org/sadv1r/junit-ordered-runner)
-[![Quality Gate](https://sonarcloud.io/api/badges/gate?key=ru.sdv1r:junit-ordered-runner)](https://sonarcloud.io/dashboard/index/ru.sdv1r:junit-ordered-runner)
+[![Quality Gate](https://sonarcloud.io/api/badges/gate?key=ru.sdv1r.junit:junit-ordered-runner)](https://sonarcloud.io/dashboard/index/ru.sdv1r.junit:junit-ordered-runner)
 
 Installation
 ==========================
 ```xml
 <dependency>
-    <groupId>ru.sadv1r</groupId>
+    <groupId>ru.sadv1r.junit</groupId>
     <artifactId>junit-ordered-runner</artifactId>
     <version>${dep.junit-ordered-runner.version}</version>
     <scope>test</scope>
