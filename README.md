@@ -2,6 +2,8 @@ JUnit Ordered Runner
 ====================
 This little project is designed to give the ability to specify the order of methods execution within a test class.
 
+[![Build Status](https://travis-ci.org/sadv1r/junit-ordered-runner.svg?branch=master)](https://travis-ci.org/sadv1r/junit-ordered-runner)
+
 Installation
 ==========================
 ```xml
