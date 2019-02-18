@@ -5,6 +5,7 @@ This little project is designed to give the ability to specify the order of meth
 [![Build Status](https://travis-ci.org/sadv1r/junit-ordered-runner.svg?branch=master)](https://travis-ci.org/sadv1r/junit-ordered-runner)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ru.sadv1r.junit:junit-ordered-runner&metric=alert_status)](https://sonarcloud.io/dashboard/index/ru.sadv1r.junit:junit-ordered-runner)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ru.sadv1r.junit:junit-ordered-runner&metric=coverage)](https://sonarcloud.io/component_measures?id=ru.sadv1r.junit:junit-ordered-runner&metric=coverage)
+[![Known Vulnerabilities](https://snyk.io/test/github/sadv1r/junit-ordered-runner/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/sadv1r/junit-ordered-runner?targetFile=pom.xml)
 [![FOSSA Status](https://app.fossa.io/api/projects/custom%2B2836%2Fgithub.com%2Fsadv1r%2Fjunit-ordered-runner.svg?type=shield)](https://app.fossa.io/projects/custom%2B2836%2Fgithub.com%2Fsadv1r%2Fjunit-ordered-runner?ref=badge_shield)
 
 Installation
