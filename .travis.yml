@@ -1,5 +1,6 @@
+dist: trusty
+os: linux
 language: java
-sudo: false
 install: true
 
 addons:
