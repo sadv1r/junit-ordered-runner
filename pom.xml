@@ -21,7 +21,7 @@
     </description>
 
     <properties>
-        <dep.assertj.version>3.9.1</dep.assertj.version>
+        <dep.assertj.version>3.20.0</dep.assertj.version>
     </properties>
 
     <dependencies>
